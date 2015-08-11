@@ -1979,7 +1979,9 @@ PAGE NAVI STYLES
     min-width: 1em;
     display: block;
     color: #2980b9; }
-    .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
+    .pagination a:hover,
+    .pagination a:focus, .pagination span:hover,
+    .pagination span:focus {
       background-color: #2980b9;
       color: #fff; }
   .pagination .current {

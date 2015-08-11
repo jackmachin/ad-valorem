@@ -356,7 +356,6 @@ POSTS & CONTENT STYLES
 
 .sub-link {
     margin-top: 0;
-
 }
 
 .sub-link:nth-of-type(3n+1) {
@@ -396,7 +395,6 @@ POSTS & CONTENT STYLES
     background-color: #d01347;
     padding: 0 1em;
 }
-
 
 		.entry-title {}
 
@@ -635,7 +633,6 @@ POST FORMATS
 	margin: auto;
 }
 
-
 .gallery .gallery-item {
 	float: left;
 	margin: 0;
@@ -739,43 +736,44 @@ PAGE NAVI STYLES
 	margin: 1.5em 0;
 }
 	.pagination{
-    text-align: center;
+        text-align: center;
 
-    ul {
-      display: inline-block;
-      background-color: $white;
-      white-space: nowrap;
-      padding: 0;
-      clear: both;
-      border-radius: 3px;
-    }
+        ul {
+            display: inline-block;
+            background-color: $white;
+            white-space: nowrap;
+            padding: 0;
+            clear: both;
+            border-radius: 3px;
+        }
 
-    li {
-      padding: 0;
-      margin: 0;
-      float: left;
-      display: inline;
-      overflow: hidden;
-      border-right: 1px solid $gray;
-    }
+        li {
+            padding: 0;
+            margin: 0;
+            float: left;
+            display: inline;
+            overflow: hidden;
+            border-right: 1px solid $gray;
+        }
 
-    a, span {
-      margin: 0;
-      text-decoration: none;
-      padding: 0;
-      line-height: 1em;
-      font-size: 1em;
-      font-weight: normal;
-      padding: 0.75em;
-      min-width: 1em;
-      display: block;
-      color: $blue;
+        a, span {
+            margin: 0;
+            text-decoration: none;
+            padding: 0;
+            line-height: 1em;
+            font-size: 1em;
+            font-weight: normal;
+            padding: 0.75em;
+            min-width: 1em;
+            display: block;
+            color: $blue;
 
-      &:hover, &:focus {
-      	background-color: $blue;
-      	color: $white;
-      }
-    }
+            &:hover,
+            &:focus {
+                background-color: $blue;
+                color: $white;
+            }
+        }
 
     .current{
     	cursor: default;
@@ -951,9 +949,6 @@ COMMENT STYLES
 	&.thread-even {}
 }
 
-
-
-
 	/* comment meta */
 	.comment-meta {
 
@@ -1115,8 +1110,6 @@ COMMENT STYLES
 		font-size: 0.9em;
 	}
 
-
-
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
@@ -1257,11 +1250,9 @@ SIDEBARS & ASIDES
     background-color: #797979;
 }
 
-
 .footer-sidebar {
     margin-top: 1.5em;
 }
-
 
 #sidebar-contact{
     background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left;
