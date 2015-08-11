@@ -67,13 +67,14 @@ NAVIGATION STYLES
                 background-color: initial;
                 width: 100%;
                 border-right: 1px solid #fff;
+                color: #000;
 
                 /*
                 you can use hover styles here even though this size
                 has the possibility of being a mobile device.
                 */
                 &:hover, &:focus {
-                    color: $white;
+                    color: #000;
                     text-decoration: underline;
                 }
             }
