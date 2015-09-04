@@ -4,7 +4,7 @@
 
         <div id="inner-content" class="container">
 
-            <div class="main" role="main">
+            <main class="main">
 
                 <h1 class="page-title">Perspective News</h1>
 
@@ -14,35 +14,33 @@
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                <header class="article-header">
+                        <header class="article-header">
 
-                    <div class="date">
-						<span class="day"><?php the_time('d') ?> </span>
-						<span class="month"><?php the_time('M'); ?></span>
-					</div><!--date-->
+                            <div class="date-container">
+                                <span class="day"><?php the_time('d') ?> </span>
+                                <span class="month"><?php the_time('M'); ?></span>
+                            </div><!--date-->
 
-                  <h1 class="entry-title single-title" itemprop="headline">
-                      <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-                  </h1>
+                            <h1 class="entry-title single-title" itemprop="headline">
+                                <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                          </h1>
 
-                </header> <?php // end article header ?>
+                        </header> <?php // end article header ?>
 
+                        <div class="entry-content" itemprop="articleBody">
+                          <?php
+                            // the content (pretty self explanatory huh)
+                            the_excerpt();
+                          ?>
+                        </div> <?php // end article section ?>
 
-                <div class="entry-content" itemprop="articleBody">
-                  <?php
-                    // the content (pretty self explanatory huh)
-                    the_excerpt();
-                  ?>
-                </div> <?php // end article section ?>
+                        <footer class="article-footer">
 
-                <footer class="article-footer">
+                        </footer> <?php // end article footer ?>
 
-                </footer> <?php // end article footer ?>
+                        <?php comments_template(); ?>
 
-                <?php comments_template(); ?>
-
-              </article> <?php // end article ?>
-
+                    </article> <?php // end article ?>
 
                 <?php endwhile; ?>
 
@@ -54,12 +52,11 @@
 
                 <?php endif; ?>
 
-
                 </div>
 
                 <?php get_sidebar ('news');?>
 
-            </div>
+            </main>
 
             <?php get_sidebar(); ?>
 

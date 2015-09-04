@@ -1,11 +1,11 @@
 {
-  "name": "Guybrush",
-  "version": "0.0.1",
-  "description": "I want to be a mighty theme developer.",
-  "main": "index.js",
-  "scripts": {
+    "name": "Guybrush",
+    "version": "0.0.1",
+    "description": "I want to be a mighty theme developer.",
+    "main": "index.js",
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+},
   "repository": {
     "type": "git",
     "url": "git://github.com/jackmachin/Guybrush.git"
