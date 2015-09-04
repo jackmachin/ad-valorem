@@ -13,12 +13,10 @@ Special Thanks for code & inspiration to:
 @jackmcconnell - http://www.voltronik.co.uk/
 Digging into WP - http://digwp.com/2010/10/customize-wordpress-dashboard/
 
-
 	- removing some default WordPress dashboard widgets
 	- an example custom dashboard widget
 	- adding custom login css
 	- changing text in footer of admin
-
 
 */
 
