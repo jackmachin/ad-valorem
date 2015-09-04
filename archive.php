@@ -1,80 +1,98 @@
 <?php get_header(); ?>
 
-			<div id="content" class="wrapper">
+    <div id="content" class="wrapper">
 
-				<div id="inner-content" class="container">
+        <div id="inner-content" class="container">
 
-						<div class="main" role="main">
+            <main class="main">
 
-							<?php if (is_category()) { ?>
-								<h1 class="archive-title h2">
-									<span><?php _e( 'Posts Categorized:', 'bonestheme' ); ?></span> <?php single_cat_title(); ?>
-								</h1>
+                <?php if (is_category()) { ?>
+                    <h1 class="archive-title">
+                        <span><?php _e( 'Posts Categorized:', 'bonestheme' ); ?></span> <?php single_cat_title(); ?>
+                    </h1>
 
-							<?php } elseif (is_tag()) { ?>
-								<h1 class="archive-title h2">
-									<span><?php _e( 'Posts Tagged:', 'bonestheme' ); ?></span> <?php single_tag_title(); ?>
-								</h1>
+                <?php } elseif (is_tag()) { ?>
+                    <h1 class="archive-title">
+                        <span><?php _e( 'Posts Tagged:', 'bonestheme' ); ?></span> <?php single_tag_title(); ?>
+                    </h1>
 
-							<?php } elseif (is_author()) {
-								global $post;
-								$author_id = $post->post_author;
-							?>
-								<h1 class="archive-title h2">
+                <?php } elseif (is_author()) {
+                    global $post;
+                    $author_id = $post->post_author;
+                ?>
+                    <h1 class="archive-title">
 
-									<span><?php _e( 'Posts By:', 'bonestheme' ); ?></span> <?php the_author_meta('display_name', $author_id); ?>
+                        <span><?php _e( 'Posts By:', 'bonestheme' ); ?></span> <?php the_author_meta('display_name', $author_id); ?>
 
-								</h1>
-							<?php } elseif (is_day()) { ?>
-								<h1 class="archive-title h2">
-									<span><?php _e( 'Daily Archives:', 'bonestheme' ); ?></span> <?php the_time('l, F j, Y'); ?>
-								</h1>
+                    </h1>
+                <?php } elseif (is_day()) { ?>
+                    <h1 class="archive-title">
+                        <span><?php _e( 'Daily Archives:', 'bonestheme' ); ?></span> <?php the_time('l, F j, Y'); ?>
+                    </h1>
 
-							<?php } elseif (is_month()) { ?>
-									<h1 class="archive-title h2">
-										<span><?php _e( 'Monthly Archives:', 'bonestheme' ); ?></span> <?php the_time('F Y'); ?>
-									</h1>
+                <?php } elseif (is_month()) { ?>
+                        <h1 class="archive-title">
+                            <span><?php _e( 'Monthly Archives:', 'bonestheme' ); ?></span> <?php the_time('F Y'); ?>
+                        </h1>
 
-							<?php } elseif (is_year()) { ?>
-									<h1 class="archive-title h2">
-										<span><?php _e( 'Yearly Archives:', 'bonestheme' ); ?></span> <?php the_time('Y'); ?>
-									</h1>
-							<?php } ?>
+                <?php } elseif (is_year()) { ?>
+                        <h1 class="archive-title">
+                            <span><?php _e( 'Yearly Archives:', 'bonestheme' ); ?></span> <?php the_time('Y'); ?>
+                        </h1>
+                <?php } ?>
 
-							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
+                    <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
-                <?php get_template_part ('partials/article-header' , 'index'); ?>
+                        <header class="article-header">
 
-								<section class="entry-content cf">
+                            <h1 class="entry-title">
+                                <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+                                    <?php the_title(); ?>
+                                </a>
+                            </h1>
 
-									<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
+                          <?php get_template_part ( 'partials/post-meta' ); ?>
 
-									<?php the_excerpt(); ?>
+                        </header>
 
-								</section>
+                        <div class="entry-content cf">
 
-                <?php get_template_part ( 'partials/article-footer' ,'index'); ?>
+                            <?php the_post_thumbnail( 'bones-thumb-300' ); ?>
 
-							</article>
+                            <?php the_excerpt(); ?>
 
-							<?php endwhile; ?>
+                        </div>
 
-									<?php bones_page_navi(); ?>
+                        <footer class="article-footer cf">
 
-							<?php else : ?>
+                            <?php get_template_part ('partials/comment-count'); ?>
 
-                <?php get_template_part ('partials/no-post-found');?>
+                            <?php printf( '<p class="footer-category">' . __('Filed under', 'bonestheme' ) . ': %1$s</p>' , get_the_category_list(', ') ); ?>
 
-							<?php endif; ?>
+                            <?php the_tags( '<p class="footer-tags tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
 
-						</div>
+                        </footer>
 
-					<?php get_sidebar(); ?>
+                    </article>
 
-				</div>
+                <?php endwhile; ?>
 
-			</div>
+                    <?php bones_page_navi(); ?>
+
+                <?php else : ?>
+
+                    <?php get_template_part ('partials/no-post-found');?>
+
+                <?php endif; ?>
+
+            </main>
+
+            <?php get_sidebar(); ?>
+
+        </div>
+
+    </div>
 
 <?php get_footer(); ?>

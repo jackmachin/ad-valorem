@@ -1,7 +1,7 @@
 <?php
 /*
-Author: Eddie Machado
-URL: http://themble.com/bones/
+Author: Jack Machin
+URL: https://github.com/pfgl/ad-valorem
 
 This is where you can drop your custom functions or
 just edit things like thumbnail sizes, header images,
