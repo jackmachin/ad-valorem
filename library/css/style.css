@@ -1455,8 +1455,8 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Ad Valorem
+Author: Jack Machi
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -1539,7 +1539,11 @@ a, a:visited {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
   /*
@@ -1547,26 +1551,30 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	http://css-tricks.com/watch-your-font-weight/
 	*/
   /* removing text decoration from all headline links */ }
-  h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a {
     text-decoration: none; }
 
-h1, .h1 {
+h1 {
   font-size: 2.5em;
   line-height: 1.333em; }
 
-h2, .h2 {
+h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em; }
 
-h3, .h3 {
+h3 {
   font-size: 1.125em; }
 
-h4, .h4 {
+h4 {
   font-size: 1.1em;
   font-weight: 700; }
 
-h5, .h5 {
+h5 {
   font-size: 0.846em;
   line-height: 2.09em;
   text-transform: uppercase;
@@ -1586,56 +1594,10 @@ HEADER STYLES
   max-width: 100%;
   height: auto; }
 
-.advice {
-  display: inline-block;
-  font-size: .75em;
-  color: #fff;
-  text-align: left;
-  text-decoration: none;
-  text-shadow: 0 -1px 1px #830d2d;
-  background-color: #d01448;
-  padding: 5px 10px 7px 10px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-box-shadow: 0 1px 1px #999;
-  -webkit-box-shadow: 0 1px 1px #999;
-  border-bottom: 1px solid #575757;
-  cursor: pointer; }
-
-.advice-image {
-  float: left;
-  margin-right: 8px;
-  margin-top: 3px; }
-
 .header-tel {
   font-size: 1.25em;
-  text-align: center;
+  text-align: right;
   font-weight: bold; }
-
-.local {
-  display: inline-block;
-  font-size: .75em;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 0 -1px 1px #464646;
-  text-align: left;
-  background: #797979;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-box-shadow: 0 1px 1px #999;
-  -webkit-box-shadow: 0 1px 1px #999;
-  border-bottom: 1px solid #575757;
-  padding: 3px 10px;
-  cursor: pointer;
-  padding: 5px 10px 7px 10px; }
-
-.local:visited,
-.local:hover,
-.advice:visited,
-.advice:hover {
-  color: #e8e8e8; }
 
 /*********************
 NAVIGATION STYLES
