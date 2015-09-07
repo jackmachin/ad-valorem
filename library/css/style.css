@@ -1437,7 +1437,8 @@ h5 {
 HEADER STYLES
 *********************/
 .logo-container {
-  margin-top: 1.5em; }
+  margin-top: 1.5em;
+  text-align: center; }
 
 .logo {
   max-width: 100%;
@@ -1445,7 +1446,7 @@ HEADER STYLES
 
 .header-tel {
   font-size: 1.25em;
-  text-align: right;
+  text-align: center;
   font-weight: bold; }
 
 /*********************
@@ -1472,11 +1473,11 @@ and more scalable.
 		*/ }
     .nav li a {
       display: block;
-      color: #fff;
+      color: #000;
       text-decoration: none;
       padding: 0.75em;
       text-align: center;
-      background-color: #d31145;
+      background-color: #eaeaea;
       width: 50%;
       float: left;
       /*
@@ -2340,8 +2341,8 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 1030px) {
   /******************************************************************
-Site Name:
-Author:
+Site Name: Ad Valorem
+Author: Jack Machin
 
 Stylesheet: Desktop Stylsheet
 
@@ -2349,8 +2350,10 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
-  .banner {
-    display: block; } }
+  .logo-container {
+    text-align: left; }
+  .header-tel {
+    text-align: right; } }
 
 /*********************
 LARGE VIEWING SIZE
