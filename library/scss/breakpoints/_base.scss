@@ -104,6 +104,7 @@ h4,
 h5 {
 	text-rendering: optimizelegibility;
 	font-weight: 500;
+    color: $green;
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -146,13 +147,10 @@ h5 {
 HEADER STYLES
 *********************/
 
-.header {
-	background-color: $header-bg;
-}
+.header {}
 
 .logo-container {
     margin-top: 1.5em;
-    text-align:center;
 }
 	.logo {
 		max-width: 100%;
