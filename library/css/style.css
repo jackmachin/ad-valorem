@@ -1372,13 +1372,13 @@ style a page via class
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #d31145;
+  color: #267646;
   text-decoration: none;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #a90e37;
+    color: #1b5331;
     text-decoration: underline; }
   a:link, a:visited:link {
     /*
@@ -1398,6 +1398,7 @@ h4,
 h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
+  color: #267646;
   /*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -1435,12 +1436,8 @@ h5 {
 /*********************
 HEADER STYLES
 *********************/
-.header {
-  background-color: #fff; }
-
 .logo-container {
-  margin-top: 1.5em;
-  text-align: center; }
+  margin-top: 1.5em; }
 
 .logo {
   max-width: 100%;
@@ -2090,7 +2087,7 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #999;
+  background-color: #f8f9fa;
   color: #f8f9fa; }
 
 /*
