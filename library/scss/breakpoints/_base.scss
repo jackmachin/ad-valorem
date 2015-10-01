@@ -1162,8 +1162,7 @@ SIDEBARS & ASIDES
 .tab {
     color: #fff;
     text-shadow: 0 -1px 1px #830d2d;
-
-    background: #d01448;
+    background: #267646;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -1181,18 +1180,15 @@ SIDEBARS & ASIDES
 }
 
     .tab-title {
-        font-size: 1.7em;
+        font-size: 1.25em;
         font-weight:bold;
         margin: 0;
         line-height: 2em;
+        color: #fff;
     }
 
-.tab-purple {
-    background-color: #a21038;
-}
-
 .tab-grey {
-    background-color: #797979;
+    background-color: #AFAFB1;
 }
 
 .footer-sidebar {
