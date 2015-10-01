@@ -2055,12 +2055,6 @@ SIDEBARS & ASIDES
   background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left;
   min-height: 300px;
   color: #404040; }
-  #sidebar-contact address {
-    background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/iconaddress.png) no-repeat top left;
-    padding-left: 35px; }
-  #sidebar-contact address,
-  #sidebar-contact ul {
-    font-size: .75em; }
 
 #sidebar-legal {
   background-color: #898989;
