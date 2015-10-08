@@ -651,27 +651,6 @@ POST FORMATS
 	padding: 0;
 }
 
-/* Wrapper for entire chat transcript. */
-.chat-transcript { }
-
-/* Individual section of the chat. */
-.chat-row { }
-
-.chat-row:even { }
-
-.chat-row:odd {}
-
-
-/* Individual speaker in the chat. */
-.chat-speaker-xxx { }
-
-/* Chat author. */
-.chat-author {}
-.chat-author cite { }
-
-/* Chat text. */
-.chat-text { }
-
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
@@ -770,7 +749,6 @@ COMMENT STYLES
 
 	}
 }
-
 
 .commentlist {
 	margin: 0;
@@ -1199,7 +1177,6 @@ SIDEBARS & ASIDES
     background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left;
     min-height: 300px;
     color: $text-color;
-
 }
 
 #sidebar-legal {
@@ -1253,6 +1230,5 @@ FOOTER STYLES
 		}
 
 	} /* end .footer-links */
-
 
 	.copyright {}
