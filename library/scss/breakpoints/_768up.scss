@@ -1,6 +1,6 @@
 /******************************************************************
-Site Name:
-Author:
+Site Name: Ad Valorem
+Author: Jack Machin
 
 Stylesheet: Tablet & Small Desktop Stylesheet
 
@@ -12,18 +12,11 @@ come into play. Have fun!
 
 ******************************************************************/
 
-
 /*********************
 GENERAL STYLES
 *********************/
 
 body {}
-
-/*********************
-LAYOUT & GRID STYLES
-*********************/
-
-.wrap {}
 
 /*********************
 HEADER STYLES
@@ -162,10 +155,6 @@ NAVIGATION STYLES
 
 } /* end .nav */
 
-#soliloquy-container-3967 {
-    margin: 0 auto;
-}
-
 /*********************
 SIDEBARS & ASIDES
 *********************/
@@ -194,7 +183,6 @@ SIDEBARS & ASIDES
 			}
 		}
 	}
-
 
 	/* links widget */
 	.widget_links {}
@@ -283,7 +271,6 @@ SIDEBARS & ASIDES
 	.widget_text {}
 	.textwidget p {}
 
-
 /*********************
 FOOTER STYLES
 *********************/
@@ -308,4 +295,3 @@ mobile. Make sure to double check these!
 		}
 	}
 } /* end .footer-links */
-

@@ -2092,8 +2092,8 @@ tweeners.
 *********************/
 @media only screen and (min-width: 481px) {
   /******************************************************************
-Site Name:
-Author:
+Site Name: Ad Valorem
+Author: Jack Machin
 
 Stylesheet: 481px and Up Stylesheet
 
@@ -2139,15 +2139,15 @@ POSTS & CONTENT STYLES
   /* entry content */
   /* end .entry-content */
   /* at this larger size, we can start to align images */
-  .alignleft, img.alignleft {
+  .alignleft {
     margin-right: 1.5em;
     display: inline;
     float: left; }
-  .alignright, img.alignright {
+  .alignright {
     margin-left: 1.5em;
     display: inline;
     float: right; }
-  .aligncenter, img.aligncenter {
+  .aligncenter {
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -2169,8 +2169,8 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) {
   /******************************************************************
-Site Name:
-Author:
+Site Name: Ad Valorem
+Author: Jack Machin
 
 Stylesheet: Tablet & Small Desktop Stylesheet
 
@@ -2183,9 +2183,6 @@ come into play. Have fun!
 ******************************************************************/
   /*********************
 GENERAL STYLES
-*********************/
-  /*********************
-LAYOUT & GRID STYLES
 *********************/
   /*********************
 HEADER STYLES
@@ -2276,8 +2273,6 @@ NAVIGATION STYLES
       .nav li:hover > ul {
         top: auto; }
   /* end .nav */
-  #soliloquy-container-3967 {
-    margin: 0 auto; }
   /*********************
 SIDEBARS & ASIDES
 *********************/
