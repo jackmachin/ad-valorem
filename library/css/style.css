@@ -1575,8 +1575,8 @@ POSTS & CONTENT STYLES
 /* post meta */
 .byline {
   color: #9fa6b4;
-  margin: 0;
-  font-size: 0.75em; }
+  font-size: 0.75em;
+  margin: 0; }
 
 /* entry content */
 .entry-content {
