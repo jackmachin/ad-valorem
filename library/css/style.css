@@ -2073,6 +2073,8 @@ FOOTER STYLES
   clear: both;
   background-color: #267646;
   color: #f8f9fa; }
+  .footer h4 {
+    color: #fff; }
 
 /*
 	if you checked out the link above:
