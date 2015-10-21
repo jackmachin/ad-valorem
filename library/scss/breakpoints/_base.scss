@@ -1173,13 +1173,9 @@ SIDEBARS & ASIDES
 #sidebar-contact{
     background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left;
     min-height: 300px;
-    color: $text-color;
 }
 
 #sidebar-legal {
-    background-color: #898989;
-    padding:1em;
-    font-size: .75em;
 
     a {
         color:#fff;
@@ -1204,9 +1200,9 @@ FOOTER STYLES
 *********************/
 
 .footer {
-	clear: both;
 	background-color: $footer-bg;
-	color: $light-gray;
+    font-size: .75em;
+    color: $white;
 
     h4 {
         color:$white;

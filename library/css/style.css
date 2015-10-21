@@ -2048,15 +2048,10 @@ SIDEBARS & ASIDES
 
 #sidebar-contact {
   background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left;
-  min-height: 300px;
-  color: #404040; }
+  min-height: 300px; }
 
-#sidebar-legal {
-  background-color: #898989;
-  padding: 1em;
-  font-size: .75em; }
-  #sidebar-legal a {
-    color: #fff; }
+#sidebar-legal a {
+  color: #fff; }
 
 .testimonial {
   font-style: italic;
@@ -2070,9 +2065,9 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .footer {
-  clear: both;
   background-color: #267646;
-  color: #f8f9fa; }
+  font-size: .75em;
+  color: #fff; }
   .footer h4 {
     color: #fff; }
 
