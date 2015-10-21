@@ -2046,6 +2046,9 @@ SIDEBARS & ASIDES
 .footer-sidebar {
   margin-top: 1.5em; }
 
+#sidebar-contact a {
+  color: #fff; }
+
 #sidebar-legal a {
   color: #fff; }
 
