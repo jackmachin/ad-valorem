@@ -17,7 +17,7 @@
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                          <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'homepage', 'slug' ); } ?>
+                          <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'home', 'slug' ); } ?>
 
                         <div class="entry-content" itemprop="articleBody">
                             <?php
