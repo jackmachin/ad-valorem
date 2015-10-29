@@ -1308,7 +1308,7 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 *********************/
 /******************************************************************
 Site Name: Ad Valorem
-Author: Jack Machi
+Author: Jack Machin
 
 Stylesheet: Base Mobile Stylesheet
 
@@ -2027,7 +2027,8 @@ SIDEBARS & ASIDES
   -webkit-box-shadow: 0 1px 1px #999;
   border-bottom: 1px solid #575757;
   cursor: pointer;
-  padding: 5px 10px 7px 10px; }
+  padding: 5px 10px 7px 10px;
+  font-size: .75em; }
   .tab a {
     font-weight: bold;
     color: #fff;
