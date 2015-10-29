@@ -323,6 +323,9 @@ be seen on the Desktop.
 .header-tel {
   text-align: right; }
 
+.banner {
+  display: block; }
+
 /*
 you can call the larger styles if you want, but there's really no need
 */

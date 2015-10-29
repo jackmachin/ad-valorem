@@ -2328,7 +2328,9 @@ be seen on the Desktop.
   .logo-container {
     text-align: left; }
   .header-tel {
-    text-align: right; } }
+    text-align: right; }
+  .banner {
+    display: block; } }
 
 /*********************
 LARGE VIEWING SIZE
