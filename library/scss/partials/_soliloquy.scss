@@ -1,8 +1,8 @@
 .soliloquy-container .soliloquy-pager-link {
-    background: url(/wp-content/themes/ad-valorem/library/images/circle.png) no-repeat scroll 0 0;
+    background: url(/wp-content/themes/ad-valorem/library/images/circle.png) no-repeat scroll 0 0 !important;
 }
 
 .soliloquy-container .soliloquy-pager-link:hover,
 .soliloquy-container .soliloquy-pager-link.active {
-    background-image: url(/wp-content/themes/ad-valorem/library/images/hover.png);
+    background-image: url(/wp-content/themes/ad-valorem/library/images/hover.png) !important;
 }
