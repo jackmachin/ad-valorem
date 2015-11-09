@@ -1495,7 +1495,8 @@ and more scalable.
 			*/ }
       .nav li a:hover,
       .nav li a:focus {
-        background-color: #267646; }
+        background-color: #267646;
+        color: #fff; }
     .nav li ul.sub-menu,
     .nav li ul.children {
       display: none;
