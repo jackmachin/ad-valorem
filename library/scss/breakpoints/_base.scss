@@ -196,8 +196,9 @@ and more scalable.
 			the style.scss file where it's relevant. We want to
 			keep this file as small as possible!
 			*/
-			&:hover, &:focus {
-
+			&:hover,
+            &:focus {
+                background-color: $green;
 			}
 		}
 

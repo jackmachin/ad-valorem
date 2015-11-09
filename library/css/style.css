@@ -1493,6 +1493,9 @@ and more scalable.
 			the style.scss file where it's relevant. We want to
 			keep this file as small as possible!
 			*/ }
+      .nav li a:hover,
+      .nav li a:focus {
+        background-color: #267646; }
     .nav li ul.sub-menu,
     .nav li ul.children {
       display: none;
