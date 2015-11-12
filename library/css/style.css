@@ -2044,6 +2044,9 @@ SIDEBARS & ASIDES
     font-weight: bold;
     color: #fff;
     font-size: 1.1em; }
+    .tab a:hover,
+    .tab a:focus {
+      color: #e8e8e8; }
 
 .tab-title {
   font-size: 1.25em;

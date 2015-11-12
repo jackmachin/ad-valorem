@@ -1154,6 +1154,12 @@ SIDEBARS & ASIDES
         font-weight: bold;
         color: #fff;
         font-size: 1.1em;
+
+        &:hover,
+        &:focus {
+            color:darken(#fff, 9%);
+
+        }
     }
 }
 
