@@ -209,7 +209,7 @@ $('a').each(function () {
     }
 });
 
-$('a.external').live('click', function (e) {
+$('.external').live('click', function (e) {
 
     e.preventDefault();
     var answer = confirm("You are about to leave the website of Ad Valorem and view the content of an external website. Ad Valorems cannot be held responsible for the content of external websites.");
