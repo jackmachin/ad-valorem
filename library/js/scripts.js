@@ -209,7 +209,7 @@ $('a').each(function () {
     }
 });
 
-$('.external').live('click', function (e) {
+$('a.external').live('click', function (e) {
 
     e.preventDefault();
     var answer = confirm("You are about to leave the website of Ad Valorem and view the content of an external website. Ad Valorems cannot be held responsible for the content of external websites.");
@@ -219,10 +219,4 @@ $('.external').live('click', function (e) {
     }
 
 });
-
-    $('.tab').click(function() {
-  window.location = $(this).find("a").attr("href");
-  return false;
-});
-
 }); /* end of as page load scripts */
