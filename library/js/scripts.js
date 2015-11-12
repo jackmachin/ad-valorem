@@ -196,11 +196,31 @@ jQuery(document).ready(function ($) {
 
 });
 
+var root = new RegExp(location.host);
 
-    $('.external').on("click", function() {
-    if($(this).attr("href").indexOf("http://") === 0) {
-        return confirm("Super long message");
+$('a').each(function () {
+    "use strict";
+    if (root.test($(this).attr('href'))) {
+        $(this).addClass('local');
+    } else {
+        // a link that does not contain the current host
+        var url = $(this).attr('href');
+        if (url.length > 1) {
+            $(this).addClass('external');
+        }
+    }
+});
+
+$('a.external').live('click', function (e) {
+    "use strict";
+
+    e.preventDefault();
+    var answer = confirm("You are about to leave the website of Ad Valorem and view the content of an external website. Ad Valorems cannot be held responsible for the content of external websites.");
+
+    if (answer) {
+        window.location = $(this).attr('href');
     }
 
+});
 
 }); /* end of as page load scripts */
