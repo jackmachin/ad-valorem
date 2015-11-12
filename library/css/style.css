@@ -2040,6 +2040,12 @@ SIDEBARS & ASIDES
   cursor: pointer;
   padding: 5px 10px 7px 10px;
   font-size: .75em; }
+  .tab a {
+    color: #fff; }
+    .tab a:hover,
+    .tab a:focus {
+      color: #fff;
+      text-decoration: none; }
   .tab .gizmo {
     font-weight: bold;
     color: #fff;

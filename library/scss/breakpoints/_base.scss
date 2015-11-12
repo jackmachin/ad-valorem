@@ -1150,6 +1150,15 @@ SIDEBARS & ASIDES
     padding: 5px 10px 7px 10px;
     font-size:.75em;
 
+    a {
+        color: #fff;
+
+        &:hover,
+        &:focus {
+            color:#fff;
+            text-decoration:none;
+        }
+    }
     .gizmo {
         font-weight: bold;
         color: #fff;
@@ -1158,7 +1167,6 @@ SIDEBARS & ASIDES
         &:hover,
         &:focus {
             color:darken(#fff, 9%);
-
         }
     }
 }
