@@ -194,10 +194,13 @@ jQuery(document).ready(function ($) {
 		$(this).find('img').stop().fadeTo('normal', 1).show();
 	});
 
+});
+
+
     $('.external').on("click", function() {
     if($(this).attr("href").indexOf("http://") === 0) {
         return confirm("Super long message");
     }
-});
+
 
 }); /* end of as page load scripts */
