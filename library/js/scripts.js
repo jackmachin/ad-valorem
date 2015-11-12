@@ -199,7 +199,7 @@ jQuery(document).ready(function ($) {
 $('a').each(function () {
 
     if (root.test($(this).attr('href'))) {
-        $(this).addClass('local');
+        //$(this).addClass('local');
     } else {
         // a link that does not contain the current host
         var url = $(this).attr('href');
