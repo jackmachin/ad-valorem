@@ -220,4 +220,9 @@ $('a.external').live('click', function (e) {
 
 });
 
+    $('.tab').click(function() {
+  window.location = $(this).find("a").attr("href");
+  return false;
+});
+
 }); /* end of as page load scripts */
