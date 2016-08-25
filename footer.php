@@ -8,6 +8,8 @@
 
                     <?php get_sidebar ('testimonials');?>
 
+                   <?php get_sidebar ('footer');?>
+
 				</div>
 
 			</footer>
