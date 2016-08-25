@@ -100,3 +100,7 @@ Stylesheet: Layout Stylesheet
         }
 
 .footer {}
+
+.subsidary-statement {
+    @include grid (12);
+}
